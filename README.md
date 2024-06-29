@@ -1,5 +1,7 @@
 # kanban
 An agile kanban board with sub-tasks
+**Figma Link**
+https://www.figma.com/design/8cgFFMYZpY8HoLa4YWF8zP/kanban?node-id=0-1&t=Vtkx6NZ7yDe8esWZ-1
 
 ## Features
 1. **Columns and Swimlanes**
