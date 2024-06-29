@@ -81,6 +81,7 @@ https://www.figma.com/design/8cgFFMYZpY8HoLa4YWF8zP/kanban?node-id=0-1&t=Vtkx6NZ
 
 ### Frontend
 - **Next.js**: React framework for server-rendered or statically-exported React applications
+- **NextUI**: UI library
 - **React**: JavaScript library for building user interfaces
 - **Redux**: State management library
 - **Styled-components**: For styling React components
