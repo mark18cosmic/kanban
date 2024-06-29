@@ -1,5 +1,6 @@
 # kanban
 An agile kanban board with sub-tasks
+
 **Figma Link**
 https://www.figma.com/design/8cgFFMYZpY8HoLa4YWF8zP/kanban?node-id=0-1&t=Vtkx6NZ7yDe8esWZ-1
 
@@ -84,6 +85,7 @@ https://www.figma.com/design/8cgFFMYZpY8HoLa4YWF8zP/kanban?node-id=0-1&t=Vtkx6NZ
 - **Redux**: State management library
 - **Styled-components**: For styling React components
 - **Axios**: For making HTTP requests
+- **DNDKit**: For dragging and dropping cards
 
 ### Backend
 - **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine
