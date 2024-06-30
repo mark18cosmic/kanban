@@ -20,7 +20,7 @@ const FeaturesDetails = [
 
 const FeaturesView = (FeaturesDetails: FeatureDetailsType) => {
     return (
-        <Card className='flex justify-center items-center'>
+        <Card className='flex justify-center items-center '>
             <CardHeader className='flex items-center justify-center'>
                 <h3 className='text-center text-2xl md:text-3xl font-bold'>{FeaturesDetails.title}
                 </h3>
@@ -37,7 +37,7 @@ const FeaturesView = (FeaturesDetails: FeatureDetailsType) => {
 
 const Features = () => {
     return (
-        <div className='min-h-screen bg-gradient-to-t from-purple-400 to-purple-800 flex flex-col text-white mt-10 rounded-xl p-10'>
+        <div className='min-h-screen bg-gradient-to-t from-purple-500 to-purple-900 flex flex-col text-white mt-10 rounded-xl p-10'>
             <div className='flex justify-center'>
                 <h2 className='text-4xl font-bold border-b-2 border-white'>Features</h2>
             </div>
@@ -57,7 +57,7 @@ const Features = () => {
                         <FeaturesView title={'Real-time Updates'} descrition={'Real-time synchronization across all users Activity logs to track changes and updates, Role-based access control (e.g., admin, member, guest)'} image={feature1} />
                     </div>
                 </div>
-                <div className='flex w-full gap-4 justify-center md:justify-between items-center mt-10 flex-col md:flex-row'>
+                <div className='hidden md:flex w-full gap-4 justify-center md:justify-between items-center mt-10 flex-col md:flex-row'>
                     <div className='md:w-1/3 w-full'>
                         <FeaturesView
                             title={'Columns and Swimlanes'}
