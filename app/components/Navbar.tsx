@@ -4,7 +4,7 @@ import React from 'react'
 import { PiFlowArrowBold } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 
-interface NavLinks {
+interface NavLinkstype {
     title: string,
     route: string,
     key: string
@@ -30,7 +30,7 @@ const NavLinks = [
     },
 ]
 
-const Navbar = (title: string, route: string) => {
+const Navbar = (Navlinks: NavLinkstype[]) => {
     return (
         <div className='p-5 flex flex-row items-center justify-between shadow-sm'>
             <div className=''>
