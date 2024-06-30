@@ -44,7 +44,9 @@ const Navbar = (Navlinks: NavLinkstype) => {
                 </ul>
             </div>
             <div className=''>
-                <FaGithub className='text-purple-700' size={35} />
+                <Link href="https://github.com/mark18cosmic/kanban">
+                    <FaGithub className='text-purple-700' size={35} />
+                </Link>
             </div>
         </div>
     )

@@ -51,7 +51,7 @@ const Features = () => {
                             image={feature1} />
                     </div>
                     <div className='md:w-1/3 w-full'>
-                        <FeaturesView title={'Independent Tracking'} descrition={'- Separate progress tracking for sub-stories. Individual status updates for sub-stories (e.g., To Do, In Progress, Done)'} image={feature1} />
+                        <FeaturesView title={'Independent Tracking'} descrition={'Separate progress tracking for sub-stories. Individual status updates for sub-stories (e.g., To Do, In Progress, Done)'} image={feature1} />
                     </div>
                     <div className='md:w-1/3 w-full'>
                         <FeaturesView title={'Real-time Updates'} descrition={'Real-time synchronization across all users Activity logs to track changes and updates, Role-based access control (e.g., admin, member, guest)'} image={feature1} />
@@ -65,7 +65,7 @@ const Features = () => {
                             image={feature1} />
                     </div>
                     <div className='md:w-1/3 w-full'>
-                        <FeaturesView title={'Independent Tracking'} descrition={'- Separate progress tracking for sub-stories. Individual status updates for sub-stories (e.g., To Do, In Progress, Done)'} image={feature1} />
+                        <FeaturesView title={'Independent Tracking'} descrition={'Separate progress tracking for sub-stories. Individual status updates for sub-stories (e.g., To Do, In Progress, Done)'} image={feature1} />
                     </div>
                     <div className='md:w-1/3 w-full'>
                         <FeaturesView title={'Real-time Updates'} descrition={'Real-time synchronization across all users Activity logs to track changes and updates, Role-based access control (e.g., admin, member, guest)'} image={feature1} />
