@@ -30,7 +30,7 @@ const NavLinks = [
     },
 ]
 
-const Navbar = (title:string, route:string) => {
+const Navbar = (title: string, route: string) => {
     return (
         <div className='p-5 flex flex-row items-center justify-between shadow-sm'>
             <div className=''>
@@ -39,12 +39,12 @@ const Navbar = (title:string, route:string) => {
             <div className='w-1/4'>
                 <ul className='hidden md:flex flex-row gap-5'>
                     {NavLinks.map((NavLink) => (
-                        <li><Link href={NavLink.route}>{NavLink.title}</Link></li>
+                        <li key={NavLink.key}><Link href={NavLink.route}>{NavLink.title}</Link></li>
                     ))}
                 </ul>
             </div>
             <div className=''>
-            <FaGithub className='text-[#6E24A8]' size={35}/>
+                <FaGithub className='text-[#6E24A8]' size={35} />
             </div>
         </div>
     )
