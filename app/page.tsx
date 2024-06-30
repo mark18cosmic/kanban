@@ -1,10 +1,11 @@
-import { Button } from "@nextui-org/react";
+import { Avatar, Button } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
 import landingpage from "@/public/landingpage.png"
 import Navbar from "./components/Navbar";
 import Features from "./components/LandingPage/Features";
 import { FaArrowRight } from "react-icons/fa";
+import Testimonial from "./components/LandingPage/Testimonial";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
       </div>
       {/* Features */}
       <Features />
+      {/* Testimonals */}
+      <Testimonial />
 
     </div>
   );
