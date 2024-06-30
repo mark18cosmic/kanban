@@ -4,6 +4,7 @@ import React from "react";
 import landingpage from "@/public/landingpage.png"
 import Navbar from "./components/Navbar";
 import Features from "./components/LandingPage/Features";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           <h2 className="font-bold text-4xl md:text-5xl">Streamline Projects with <span className="text-purple-700">Precision</span> and <span className="text-purple-700">Flexibility</span></h2>
           <p className="text-lg leading-normal">Transform your project management with our agile kanban board designed to manage workflows and enhance collaboration. Whether you're a startup, a growing team, or an established enterprise.</p>
           <div className="hidden items-center md:flex flex-col gap-2">
-            <Button className=" text-white rounded-lg  font-semibold bg-purple-700 text-lg w-full ">Start Now</Button>
+            <Button className=" text-white rounded-lg  font-semibold bg-purple-700 text-lg w-full ">Start Now <span><FaArrowRight /></span></Button>
             <p className="text-gray-600 font-thin">This project is a work in progress</p>
           </div>
         </div>
@@ -22,7 +23,7 @@ export default function Home() {
         <div className="md:w-1/2">
           <Image className="rounded-xl shadow-xl" src={landingpage} alt="LandingPageImage" />
         </div>
-        <Button className="md:hidden flex text-white font-semibold bg-purple-700 w-full">Start Now</Button>
+        <Button className="md:hidden flex text-white font-semibold bg-purple-700 w-full">Start Now <span><FaArrowRight /></span></Button>
       </div>
       {/* Features */}
       <Features />
