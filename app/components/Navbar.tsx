@@ -17,13 +17,13 @@ const NavLinks = [
         key: "1"
     },
     {
-        title: "About",
+        title: "Pricing",
         route: "/",
         key: "2",
 
     },
     {
-        title: "Contact",
+        title: "About",
         route: "/",
         key: "3"
 
@@ -39,7 +39,7 @@ const Navbar = (Navlinks: NavLinkstype) => {
             <div className='w-1/4'>
                 <ul className='hidden md:flex flex-row gap-5'>
                     {NavLinks.map((NavLink) => (
-                        <li key={NavLink.key}><Link href={NavLink.route}>{NavLink.title}</Link></li>
+                        <li key={NavLink.key}><Link className='hover:border-b-2 border-[#6E24A8]' href={NavLink.route}>{NavLink.title}</Link></li>
                     ))}
                 </ul>
             </div>
