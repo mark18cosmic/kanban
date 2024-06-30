@@ -2,6 +2,7 @@ import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import React from "react";
 import landingpage from "@/public/landingpage.png"
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (

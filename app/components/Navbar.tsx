@@ -5,9 +5,9 @@ import { PiFlowArrowBold } from "react-icons/pi";
 import { FaGithub } from "react-icons/fa";
 
 interface NavLinkstype {
-    title: string,
-    route: string,
-    key: string
+    title: string;
+    route: string;
+    key: string;
 }
 
 const NavLinks = [
@@ -19,18 +19,18 @@ const NavLinks = [
     {
         title: "About",
         route: "/",
-        key: "1",
+        key: "2",
 
     },
     {
         title: "Contact",
         route: "/",
-        key: "1"
+        key: "3"
 
     },
 ]
 
-const Navbar = (Navlinks: NavLinkstype[]) => {
+const Navbar = (Navlinks: NavLinkstype) => {
     return (
         <div className='p-5 flex flex-row items-center justify-between shadow-sm'>
             <div className=''>
