@@ -37,7 +37,7 @@ const FeaturesView = (FeaturesDetails: FeatureDetailsType) => {
 
 const Features = () => {
     return (
-        <div className='min-h-screen bg-gradient-to-t from-purple-500 to-purple-900 flex flex-col text-white mt-10 rounded-xl p-10'>
+        <div className='min-h-screen shadow-xl bg-gradient-to-t from-purple-500 to-purple-900 flex flex-col text-white mt-10 rounded-xl p-10'>
             <div className='flex justify-center'>
                 <h2 className='text-4xl font-bold border-b-2 border-white'>Features</h2>
             </div>
