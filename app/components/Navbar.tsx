@@ -7,20 +7,26 @@ import { FaGithub } from "react-icons/fa";
 interface NavLinks {
     title: string,
     route: string,
+    key: string
 }
 
 const NavLinks = [
     {
         title: "Home",
-        route: "/"
+        route: "/",
+        key: "1"
     },
     {
         title: "About",
-        route: "/"
+        route: "/",
+        key: "1",
+
     },
     {
         title: "Contact",
-        route: "/"
+        route: "/",
+        key: "1"
+
     },
 ]
 
